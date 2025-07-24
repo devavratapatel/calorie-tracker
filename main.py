@@ -3,10 +3,8 @@ import torch
 import torchvision
 from torchvision import transforms
 from torch import nn
-# from create_model import effnetb2_food101, effnetb2_transforms
 from utils import food101_model_and_transforms, get_dataloaders, split_dataset, save_model
 from engine import train
-# from helper_functions import plot_loss_curves
 
 if __name__ == "__main__":
     model, train_data, test_data = food101_model_and_transforms(num_classes=101)
