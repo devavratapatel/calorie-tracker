@@ -14,7 +14,7 @@ if __name__ == "__main__":
     food101_class_names = train_data.classes
     print(food101_class_names)
 
-    # Skip splitting dataset if you have a great GPU, I don't so I skip
+    # Skip splitting dataset if you have a decent GPU, split dataset if you don't
     # train_data, _ = split_dataset(train_data, 0.2)
     # test_data, _ = split_dataset(test_data, 0.2)
 
