@@ -1,0 +1,8 @@
+torch
+torchvision
+gradio
+torchinfo
+numpy
+pandas
+requests
+dotenv

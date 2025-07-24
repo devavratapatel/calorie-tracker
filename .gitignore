@@ -1,0 +1,15 @@
+.env
+*.pth
+*.jpg
+*.jpeg
+*.gz
+venv/
+env/
+.calorie-tracker/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+data/
+calorie-tracker/
